@@ -5,9 +5,10 @@ Create a virtual environment and then activate it. Once activated, install the `
 ```
 cd path_to_where_you_want_aa598_material
 git clone git@github.com:UW-CTRL/AA598-aut24.git
-cd ~/venvs
+cd path_to_place_you_want_venv_to_live
 python3 -m venv aa598
 source aa598/bin/activate
+cd path_to_folder_you_just_cloned
 pip install -e .
 ```
 Alternatively, you can create a new venv via VSCode.
