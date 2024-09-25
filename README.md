@@ -7,7 +7,7 @@ cd path_to_where_you_want_aa598_material
 git clone git@github.com:UW-CTRL/AA598-aut24.git
 cd AA598-aut24
 python3 -m venv aa598_venv
-source aa598/bin/activate
+source aa598_venv/bin/activate
 pip install -e .
 ```
 Alternatively, you can create a new venv via VSCode.
