@@ -16,7 +16,11 @@ The `aa598` folder contains homework helper code.
 
 The `homework` folder contains the homework starter code.
 
+<<<<<<< HEAD
 To start working on a homework, sync the latest changes from UW-CTRL. Go to your forked repo site, and on the `main` branch, click "Sync fork."
+=======
+To start working on a homework, sync the latest changes from UW-CTRL. Go to your forked repo site, and on the `main` branch, click "Sync fork." 
+>>>>>>> refs/remotes/origin/main
 
 To (hopefully) avoid conflicts, create a new branch when starting a new homework. For example, for homework X.
 ```
