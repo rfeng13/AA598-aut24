@@ -1,10 +1,10 @@
 # AA598 Safe Autonomy
 
-Clone this package.
+Fork this package.
 Create a virtual environment and then activate it. Once activated, install the `aa598` package in editable mode. For example,
 ```
 cd path_to_where_you_want_aa598_material
-git clone git@github.com:UW-CTRL/AA598-aut24.git
+git clone <your forked repo>
 cd AA598-aut24
 python3 -m venv aa598_venv
 source aa598_venv/bin/activate
@@ -16,14 +16,9 @@ The `aa598` folder contains homework helper code.
 
 The `homework` folder contains the homework starter code.
 
-To start working on a homework, first pull the latest changes.
-```
-git checkout main
-git fetch origin main
-git merge origin/main
-```
+To start working on a homework, sync the latest changes from UW-CTRL. Go to your forked repo site, and on the `main` branch, click "Sync fork." 
 
-To (hopefully) avoid conflicts, create a new branch when starting a new homework. For example, for homework X,
+To (hopefully) avoid conflicts, create a new branch when starting a new homework. For example, for homework X.
 ```
 git checkout -b homework_X
 ```
