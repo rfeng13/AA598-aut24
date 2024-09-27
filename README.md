@@ -18,8 +18,24 @@ The `homework` folder contains the homework starter code.
 
 To start working on a new homework, sync the latest changes from UW-CTRL. Go to your forked repo site, and on the `main` branch, click "Sync fork." 
 
-To (hopefully) avoid conflicts, create a new branch when starting a new homework. For example, for homework X.
+To (hopefully) avoid conflicts, create a new branch when starting a new homework. For example, for homework X. After syncing with the upstream main branch
 ```
 git checkout -b homework_X
 ```
-And you can edit the starter code and save commit your changes on the `homework_X` branch whilst keeping the `main` branch clean and avoid merge conflicts when the pull the latest changes.
+You can edit the starter code and save and commit your changes on the `homework_X` branch while keeping the `main` branch clean and avoiding merge conflicts when pulling the latest changes.
+To commit your own changes/progress
+
+```
+git add <files you want to add>
+git commit -m <commit message>
+git push origin homework_X
+```
+
+To switch back to the main branch (after committing and pushing your homework_X changes and syncing with the upstream main branch),
+
+```
+git checkout main
+```
+
+
+
