@@ -13,6 +13,8 @@ setup(
         "numpy",
         "torch",
         "ipywidgets",
-        "ipykernel"
+        "ipykernel",
+        "equinox",
+        "cvxpy"
     ],
 )
