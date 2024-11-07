@@ -38,6 +38,3 @@ To switch back to the main branch (after committing and pushing your homework_X 
 ```
 git checkout main
 ```
-
-
-
